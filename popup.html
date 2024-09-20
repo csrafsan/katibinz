@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Katibin Pro</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+    #urlInput { width: 80%; }
+    #blockButton { padding: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Block a Site</h3>
+  <input type="text" id="urlInput" placeholder="Enter URL" />
+  <button id="blockButton">Block</button>
+  
+  <h4>Blocked Sites</h4>
+  <ul id="blockedSitesList"></ul>
+  
+  <button id="openOptions">Settings</button> <!-- Ensure this button ID matches popup.js -->
+  <script src="popup.js"></script>
+</body>
+</html>
